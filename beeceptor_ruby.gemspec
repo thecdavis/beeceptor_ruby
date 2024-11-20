@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.description = "Allows users to use Beeceptor's REST API."
   spec.homepage = 'https://github.com/chrisdavis179/beeceptor_ruby'
   spec.license = 'MIT'
-  spec.required_ruby_version = '>= 2.6.0'
+  spec.required_ruby_version = '>= 3.2.2'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -27,6 +27,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'faraday'
   spec.add_dependency 'json'
   spec.add_dependency 'rspec', '~> 3.7'
+  spec.add_dependency 'rubocop'
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
